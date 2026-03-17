@@ -1,7 +1,6 @@
-﻿Console.WriteLine("Hello, World!");
 using System.Net.Http.Json;
 
-var baseUrl = "https://localhost:5001/api/todo";
+var baseUrl = "http://localhost:5063/api/todo";
 var httpClient = new HttpClient();
 
 while (true)
